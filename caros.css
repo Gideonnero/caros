@@ -1,0 +1,307 @@
+body{
+ background-color: black;
+ margin: 0;
+ padding: 0;
+}
+
+#logo{
+ margin: 11px;
+ padding: 11px;
+ margin-top: -4px;
+ margin-left: -4px;
+ margin-top: 3px;
+}
+
+header{
+ color: #FFD700;
+ font-weight: bold;
+ font-size: 50px;
+ text-align: left;
+ margin-top: -6.7%;
+ margin-left: 6%;
+}
+
+
+nav{
+ display: flex;
+ justify-content: center;
+ gap: 40px;
+ margin-top: -35px;
+ padding-top: -35px;
+ margin-left: 60px;
+}
+nav a{
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+}
+nav a:hover{
+ color: white;
+ text-decoration: underline;
+ font-weight: lighter;
+}
+label{
+ font-weight: lighter;
+ display: block;
+ margin-left: 40px;
+}
+input{
+ margin-top: 5px;
+ border: 1px solid #ccc;
+ border-radius: 20px;
+}
+
+.banners{
+ margin: 10px;
+ padding: 20px;
+ margin-left: 35px;
+ margin-bottom: 70px;
+ padding-bottom: 70px;
+ object-fit: cover;
+}
+.banners img{
+ object-fit: cover;
+ margin-left: -2px;
+ margin-right: -2px;
+}
+
+h1{
+ color: white;
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: fantasy;
+ margin-bottom: 30px;
+ padding-bottom: 30px;
+}
+
+
+.kind{
+ color: blue;
+ background-color: white;
+ display: flex;
+}
+.kind p{
+ padding: 15px;
+ margin: 15px;
+ font-size: 30px;
+ font-style: italic;
+}
+
+
+h2{
+ color: white;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 48px;
+ margin: 10px;
+ padding: 10px;
+ padding-top: 30px;
+ margin-left: 70px;
+}
+
+
+.home-container{
+ color: white;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+ margin-top: 20px;
+ object-fit: cover;
+}
+.home-card{
+ color: white;
+ border-radius: 5px;
+ overflow: hidden;
+ width: 350px;
+ margin: 20px;
+ text-align: center;
+ position: relative;
+ object-fit: cover;
+}
+.home-card img{
+ width: 350px;
+ object-fit: cover;
+}
+.home-content{
+ color: white;
+ padding: 15px;
+}
+.home-content h3{
+ margin-bottom: -10px;
+ margin-top: -10px;
+ font-style: unset;
+ font-size: 20px;
+ color: white;
+}
+.home-content p{
+ font-size: 15px;
+ color: white;
+}
+.home-card a{
+ text-decoration: none;
+ 
+}
+
+h4{
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
+ font-family: Arial Verdana Helvetica;
+ margin-left: 60px;
+ margin-bottom: -20px;
+ padding-bottom: -20px;
+}
+
+.categories{
+ padding: 15px;
+ margin: 15px;
+}
+.categories-home{
+ display: inline-block;
+ position: relative;
+ color: white;
+ padding: 20px;
+ margin: 3px;
+}
+.categories-home img{
+ display: block;
+ width: 100%;
+ margin: 10px;
+ padding: 10px;
+ object-fit: cover;
+}
+
+.overlay-text{
+ color: brown;
+ position: absolute;
+ bottom: 77px;
+ padding-left: 30px;
+ font-weight: bold;
+ font-size: 37px;
+ text-decoration: none;
+}
+.categories-home p{
+ color: brown;
+ position: absolute;
+ bottom: 150px;
+ padding-left: 30px;
+ font-weight: lighter;
+ font-size: 20px;
+}
+.categories-home h5{
+ color: brown;
+ position: absolute;
+ bottom: 80px;
+ padding-left: 30px;
+ font-weight: bold;
+ font-size: 30px
+}
+.overlay-text p h5:hover{
+ color: white;
+}
+
+
+#about {
+ color: black;
+ background-color: gray;
+ display: flex;
+ padding: 8px;
+ margin-right: -3%;
+ margin-left: -3%;
+ margin-top: 40px;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+
+#description{ 
+ width: 50%;
+ margin-left: 30px;
+ text-align: justify;
+}
+
+#description h2{
+ color: black;
+ margin-left: -5px;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 50px;
+}
+
+#description p{
+ font-weight: lighter;
+ font-size: 30px;
+ margin-left: 5px;
+}
+
+#description h3{
+ padding-top: 57px;
+ margin-left: 5px;
+ font-weight: bold;
+ font-size: 28px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#images{
+ margin-left: 50px;
+}
+
+#team-images{
+ border-radius: 5%;
+ object-fit: cover;
+}
+
+
+
+
+
+footer {
+ text-align: center;
+ padding: 2rem;
+ background: #000;
+ color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
